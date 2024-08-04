@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34916.146
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core", "core", "{AA56A5F9-E2DB-4766-A689-4D1E85E5D7A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6B7B462D-9113-4210-88F7-B1EEAE6A4DD1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{434A67E5-8352-4362-833E-4F0640C24AA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderCalculatorApp.Api", "src\core\src\OrderCalculatorApp.Api\OrderCalculatorApp.Api.csproj", "{D65C98AD-2E84-414B-A5BE-26664B9D2940}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderCalculatorApp.Business", "src\core\src\OrderCalculatorApp.Business\OrderCalculatorApp.Business.csproj", "{68249C89-11F3-40F1-BB79-B5414E450E71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderCalculatorApp.Data", "src\core\src\OrderCalculatorApp.Data\OrderCalculatorApp.Data.csproj", "{A62C6F70-78AF-4B74-9B68-54C9D208B538}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderCalculatorApp.Shared", "src\core\src\OrderCalculatorApp.Shared\OrderCalculatorApp.Shared.csproj", "{288E589B-319A-4113-BF07-9C5976C66161}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D65C98AD-2E84-414B-A5BE-26664B9D2940}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D65C98AD-2E84-414B-A5BE-26664B9D2940}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D65C98AD-2E84-414B-A5BE-26664B9D2940}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D65C98AD-2E84-414B-A5BE-26664B9D2940}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68249C89-11F3-40F1-BB79-B5414E450E71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68249C89-11F3-40F1-BB79-B5414E450E71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68249C89-11F3-40F1-BB79-B5414E450E71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68249C89-11F3-40F1-BB79-B5414E450E71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A62C6F70-78AF-4B74-9B68-54C9D208B538}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A62C6F70-78AF-4B74-9B68-54C9D208B538}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A62C6F70-78AF-4B74-9B68-54C9D208B538}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A62C6F70-78AF-4B74-9B68-54C9D208B538}.Release|Any CPU.Build.0 = Release|Any CPU
+		{288E589B-319A-4113-BF07-9C5976C66161}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{288E589B-319A-4113-BF07-9C5976C66161}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{288E589B-319A-4113-BF07-9C5976C66161}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{288E589B-319A-4113-BF07-9C5976C66161}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6B7B462D-9113-4210-88F7-B1EEAE6A4DD1} = {AA56A5F9-E2DB-4766-A689-4D1E85E5D7A1}
+		{434A67E5-8352-4362-833E-4F0640C24AA7} = {AA56A5F9-E2DB-4766-A689-4D1E85E5D7A1}
+		{D65C98AD-2E84-414B-A5BE-26664B9D2940} = {6B7B462D-9113-4210-88F7-B1EEAE6A4DD1}
+		{68249C89-11F3-40F1-BB79-B5414E450E71} = {6B7B462D-9113-4210-88F7-B1EEAE6A4DD1}
+		{A62C6F70-78AF-4B74-9B68-54C9D208B538} = {6B7B462D-9113-4210-88F7-B1EEAE6A4DD1}
+		{288E589B-319A-4113-BF07-9C5976C66161} = {6B7B462D-9113-4210-88F7-B1EEAE6A4DD1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {19661E70-78AB-448D-821B-77D042082528}
+	EndGlobalSection
+EndGlobal
